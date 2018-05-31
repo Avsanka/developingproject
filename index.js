@@ -5,5 +5,5 @@ function plus() {
   num2 = document.getElementById('n2').value;
   num2 = parseInt(num2);
   result = num1+num2;
-  document.getElementById('out').inner.HTML = result;
+  document.getElementById('out').innerHTML = result;
 }
